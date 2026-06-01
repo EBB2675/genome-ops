@@ -1,0 +1,61 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Local config
+
+.env
+.env.*
+*.log
+
+# Raw and processed genetic data
+
+data/raw/
+data/processed/
+data/private/
+
+# Common raw DNA / genotype file formats
+
+*.csv
+*.tsv
+*.txt
+*.zip
+*.vcf
+*.vcf.gz
+*.bed
+*.bim
+*.fam
+*.pgen
+*.pvar
+*.psam
+
+# Reports generated from personal DNA data
+
+reports/
+outputs/
+results/
+
+# OS/editor files
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
